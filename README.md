@@ -7,7 +7,7 @@
 ## Installation
 
 1. Add `gem 'jekyll-roman'` to your site’s Gemfile and run bundle
-2. Add the following to your site's _config.yml:
+2. Add the following to your site’s `_config.yml`:
 
 ```yml
 gems:
@@ -16,7 +16,7 @@ gems:
 
 ## Usage
 
-This filter takes any given number, and converts it to roman numerals. For example, if you wish to display the year of your site’s copyright, you would write the following:
+This filter takes any given whole number, and converts it. Any other types of string are ignored. For example, if you wish to display the year in your site’s copyright statement as roman numerals, you would write the following:
 
 ```html
 <h1>&copy; {{ site.time | date:"%Y" | roman }}</h1>

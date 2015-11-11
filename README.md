@@ -3,6 +3,7 @@
 *A liquid filter for Jekyll that converts numbers into Roman numerals.*
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-roman.svg)](https://rubygems.org/gems/jekyll-roman)
+[![Build Status](https://img.shields.io/travis/paulrobertlloyd/jekyll-roman/master.svg)](https://travis-ci.org/paulrobertlloyd/jekyll-roman)
 
 ## Installation
 

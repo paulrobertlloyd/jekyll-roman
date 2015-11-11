@@ -5,7 +5,7 @@ def relative_to_root(path)
 end
 
 require 'jekyll'
-require relative_to_root('lib/jekyll-smartify.rb')
+require relative_to_root('lib/jekyll-roman.rb')
 require 'pry-debugger'
 
 SOURCE_DIR = relative_to_root('spec/fixtures')

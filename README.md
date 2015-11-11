@@ -1,4 +1,4 @@
-jekyll-roman-filter
+Jekyll Roman Filter
 ===================
 
 A liquid filter for Jekyll that converts numbers into Roman numerals.
@@ -8,7 +8,7 @@ A liquid filter for Jekyll that converts numbers into Roman numerals.
 1. Add `gem 'jekyll-roman'` to your site's Gemfile and run bundle
 2. Add the following to your site's _config.yml:
 
-```yaml
+```yml
 gems:
   - jekyll-roman
 ```

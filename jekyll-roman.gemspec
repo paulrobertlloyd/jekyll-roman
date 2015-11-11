@@ -6,7 +6,8 @@ require 'jekyll-roman/version'
 Gem::Specification.new do |spec|
   spec.name        = "jekyll-roman"
   spec.version     = Jekyll::Roman::VERSION
-  spec.summary     = "A liquid filter for Jekyll that converts numbers into Roman numerals."
+  spec.summary     = "Jekyll plugin that converts numbers into Roman numerals."
+  spec.description = "A liquid filter for Jekyll that converts numbers into Roman numerals."
   spec.authors     = ["Paul Robert Lloyd"]
   spec.email       = "me+rubygems@paulrobertlloyd.com"
   spec.files       = Dir.glob("lib/**/*.rb")
@@ -20,6 +21,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "jekyll", [">= 2.0", "< 4.0"]
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency 'rake', '~> 0'
   spec.add_development_dependency "bundler", "~> 1.6"
 end

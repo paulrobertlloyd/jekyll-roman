@@ -17,7 +17,7 @@ gems:
 
 ## Usage
 
-This filter takes any given whole number, and converts it. Any other types of string are ignored. For example, if you wish to display the year in your site’s copyright statement as roman numerals, you would write the following:
+This filter takes any given whole number and converts it. Any other types of string are ignored. For example, if you wish to display the year in your site’s copyright statement as roman numerals, you would write the following:
 
 ```html
 <h1>&copy; {{ site.time | date:"%Y" | roman }}</h1>

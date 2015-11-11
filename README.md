@@ -1,11 +1,12 @@
-Jekyll Roman Filter
-===================
+# jekyll-roman
 
-A liquid filter for Jekyll that converts numbers into Roman numerals.
+*A liquid filter for Jekyll that converts numbers into Roman numerals.*
+
+[![Gem Version](https://img.shields.io/gem/v/jekyll-roman.svg)](https://rubygems.org/gems/jekyll-roman)
 
 ## Installation
 
-1. Add `gem 'jekyll-roman'` to your site's Gemfile and run bundle
+1. Add `gem 'jekyll-roman'` to your site’s Gemfile and run bundle
 2. Add the following to your site's _config.yml:
 
 ```yml
@@ -15,7 +16,7 @@ gems:
 
 ## Usage
 
-This filter takes any given number, and converts it to roman numerals. For example, if you wish to display the year of your site's copyright, you would write the following:
+This filter takes any given number, and converts it to roman numerals. For example, if you wish to display the year of your site’s copyright, you would write the following:
 
 ```html
 <h1>&copy; {{ site.time | date:"%Y" | roman }}</h1>

@@ -3,7 +3,7 @@
 A liquid filter for Jekyll that converts numbers into Roman numerals.
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-roman.svg)](https://rubygems.org/gems/jekyll-roman)
-[![Build Status](https://img.shields.io/travis/paulrobertlloyd/jekyll-roman/master.svg)](https://travis-ci.org/paulrobertlloyd/jekyll-roman)
+[![Build Status](https://github.com/paulrobertlloyd/jekyll-roman/workflows/test/badge.svg)](https://github.com/paulrobertlloyd/jekyll-roman/actions)
 
 ## Installation
 
@@ -25,8 +25,8 @@ This filter takes any given whole number and converts it. Any other types of str
 
 ## Testing
 
-1. `script/bootstrap`
-2. `script/cibuild`
+1. `bundle install`
+2. `bundle exec rake spec`
 
 ## Contributing
 
